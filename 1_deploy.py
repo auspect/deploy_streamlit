@@ -11,9 +11,6 @@ from langchain.memory import ConversationBufferMemory
 
 import zipfile
 
-# %%
-with zipfile.ZipFile("chroma_db.zip", "r") as zip_ref:
-    zip_ref.extractall("chroma_db")
 
 # %%
 # Define the model name for text embeddings.
